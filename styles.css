@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.general-padding {
+  padding: 50px 150px 50px 150px;
+}
+
+nav {
+  background: #d3d3d3;
+  height: 120px;
+  margin: 0;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+#menu-wrapper {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 18px;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.logo-wrapper {
+  width: 30%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#hero {
+  background: #e5e5e5;
+  height: 400px;
+}
+
+#weather-widget {
+  width: 550px;
+  height: 150px;
+  left: 150px;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ededed;
+}
+
+#weather-icon {
+  width: 130px;
+  height: 130px;
+  background: white;
+}
+
+#weather-info {
+  width: 386;
+  height: 130px;
+  background: white;
+}
+
+#blog-section {
+  padding-top: 70px;
+  height: 760px;
+}
+
+#blog-container {
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: 456px;
+  background: #ededed;
+}
+
+.blog-image {
+  background: lightgrey;
+  height: 228px;
+  width: 100%;
+}
+
+.blog-description {
+  padding: 0 20px 0 20px;
+}
+
+.blog-blurb {
+  background: white;
+  height: 150px;
+  padding: 10px;
+}
+
+#map {
+  height: 520;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 430px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 150px 120px 150px;
+}
+
+.footer-item {
+  background: #ededed;
+  width: 30%;
+  height: 100%;
+}
